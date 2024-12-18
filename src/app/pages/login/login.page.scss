@@ -2,6 +2,10 @@ io-button[color="dark"]{
   text-transform: initial;
 }
 
+io-button{
+  margin: 10px;
+}
+
 ion-content{
   --background: var(--ion-color-success);
 }
