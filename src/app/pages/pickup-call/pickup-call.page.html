@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-buttons>
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>pickup-call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14416.936209314368!2d29.35987775!3d-3.39691785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sbi!4v1734612981625!5m2!1sfr!2sbi"
+    width="400"
+    height="300"
+    style="border:0;"
+    allowfullscreen
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  <ion-card>
+    <ion-card-content>
+      <p>Address : Fake Street, 111</p>
+      <p>Zip code : 987456321236</p>
+      <p>City name : Bujumbura Burundi</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">Notes</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button size="full" color="success">Create pickup call</ion-button>
+</ion-content>
+
